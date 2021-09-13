@@ -1,0 +1,45 @@
+.Header{
+    margin: 0 0 20px 0;
+}
+.HeadIcon{
+    width: 100%;
+    height: 200px;
+}
+.Information{
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+}
+.Avatarka{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+}
+.UserInformation{
+    padding: 10px;
+    vertical-align: top;
+}
+h2{
+    font-weight: 600;
+    
+}
+.Messeges{
+    margin: 20px auto;
+    width: 90%;
+}
+.Messege{
+    display: grid;
+    margin: 0 0 20px 0;
+    grid-template-columns: 20% 70%;
+    padding: 10px;
+    border: 0.5px solid green;
+}
+.MsAva{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%
+}
+.MessegeText{
+    width: 100%;
+    margin: auto 0
+}

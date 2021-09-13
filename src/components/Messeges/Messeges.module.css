@@ -1,0 +1,22 @@
+.Messeges{
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+}
+.MessegeName{
+    font-size: 25px;
+    padding: 10px;
+}
+.MessegesChat{
+    font-size: 20px;
+    padding: 10px;
+}
+.MessegeName a{
+    color: black;
+    text-decoration: none;
+}
+.MessegeName a:hover{
+    color: blue;
+}
+a .active{
+    color: chartreuse;
+}

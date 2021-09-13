@@ -1,0 +1,13 @@
+.App{
+  display: grid;
+  grid-template-areas: 
+  "h h h"
+  "n p p";
+  grid-template-rows: 100px 1fr 60px;
+  grid-template-columns: 20% 80%;
+  margin: 20px 280px;
+}
+.Router{
+  grid-area: p;
+  margin: 20px 0 0 0 ;
+}
